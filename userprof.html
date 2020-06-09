@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User Profile</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/app.js" defer></script>
+    <center><h1>User Profile</h1></center>
+  </head>
+  <body>
+    
+    <section id="new-post">
+        <label for="A">Current Password</label>
+        <input type="text" id="curPwInpt" />
+
+        <label for="B">New Password</label>
+        <input type="text" id="newPwInpt" />
+
+        <label for="C">Confirm New Password</label>
+        <input type="text" id="cfmNewPwInpt" />
+
+        <center><button id="btn-UserProfSave" type="submit" onclick="btnUserProfSaveHandler()">SAVE</button></center>
+    </section>
+
+    <ul class="nav">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="townreport.html">Town Report</a></li>
+      <li><a href="admin.html">Admin</a></li>
+      <li><a href="followup.html">Follow Up</a></li>
+      <li><a class="active" href="userprof.html">User Profile</a></li>
+      <li><a href="index.html">Sign Out</a></li>
+  </ul>
+
+  </body>
+</html>

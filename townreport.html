@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Town Report</title>
+
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/app.js" defer></script>
+ 
+    <center><h1>Town Report</h1></center>
+  </head>
+  <body>
+    <section id="middle-box">
+      <select class="town-select-bar">
+        <option value="Town A">Town A</option>
+        <option value="Town B">Town B</option>
+        <option value="Town C">Town C</option>
+      </select>
+
+
+      <select class="town-select-bar" name="Techs">
+        <option value="Kevin">Service Technician Name</option>
+        <option value="Kevin">Kevin</option>
+        <option value="Han">Han</option>
+        <option value="Yung">Yung</option>
+      </select>
+
+      <input type="text" value="Service Date"/>
+
+      <p>
+        Systems Serviced <input type="text"/>out of <input type="text" value="3"/><br>
+        Problems Found:<br>
+        
+      </p>
+
+        <table>
+          <tr>
+            <th>Items</th>
+            <th style="text-align:center">Replaced</th>
+            <th style="text-align:center">Will Ship</th>
+          </tr>
+          <tr>
+            <th>Printer</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Printer Cartridge</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Printer Sleeve</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Printer Cable</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Laptop</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Laptop Cable</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Keypad</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>Headphones</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+          <tr>
+            <th>USB Cable</th>
+            <th><input type="checkbox"></th>
+            <th><input type="checkbox"></th>
+          </tr>
+        </table><br>
+      Notes:
+      <textarea id="notes-box" rows="4" cols="50"></textarea>
+
+      <div align="right">
+        <button id="btn-TownReportDone" onclick="btnTownReportDoneHandler()" type="submit">DONE</button>
+      </div>
+      
+        
+
+    </section>
+
+    <ul class="nav">
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a class="active" href="townreport.html">Town Report</a></li>
+      <li><a href="admin.html">Admin</a></li>
+      <li><a href="followup.html">Follow Up</a></li>
+      <li><a href="userprof.html">User Profile</a></li>
+      <li><a href="index.html">Sign Out</a></li>
+  </ul>
+
+  </body>
+</html>

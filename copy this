@@ -1,0 +1,10 @@
+<ul class="nav">
+  <li><a href="/">Dash board</a></li>
+  <li><a href="/work/">Town Report</a></li>
+  <li><a class="active" href="/clients/">Admin</a></li>
+  <li><a href="/contact/">Follow Up</a></li>
+  <li><a href="/contact/">User Profile</a></li>
+  <li><a href="/contact/">Sign Out</a></li>
+</ul>
+
+    
